@@ -1,6 +1,7 @@
 /*
   Edit this file to update the GitHub Pages version.
-  Put ten successful MP4s and four failure MP4s in videos/.
+  Put ten successful MP4s, four failure MP4s, and four representation
+  fine-tuning comparison MP4s in videos/.
   Replace the scene names, titles, observations, or filenames as needed.
 */
 
@@ -92,6 +93,33 @@ window.I2R_AD_SITE = {
       title: "Poor Turning Clearance",
       src: "./videos/failure-04.mp4",
       caption: "The policy fails to maintain sufficient clearance during the left turn, resulting in a collision with a roadside traffic sign."
+    }
+  ],
+
+  representationCases: [
+    {
+      scene: "Comparison 01 · Frozen Representation",
+      title: "Scenario 1: Frozen Representation",
+      src: "./videos/representation-01.mp4",
+      caption: "Driving behavior when the transferred representation modules are frozen during RL training."
+    },
+    {
+      scene: "Comparison 02 · Fine-tuned Representation",
+      title: "Scenario 1: Fine-tuned Representation",
+      src: "./videos/representation-02.mp4",
+      caption: "Driving behavior when the transferred representation modules are fine-tuned during RL training."
+    },
+    {
+      scene: "Comparison 03 · Frozen Representation",
+      title: "Scenario 2: Frozen Representation",
+      src: "./videos/representation-03.mp4",
+      caption: "Driving behavior when the transferred representation modules are frozen during RL training."
+    },
+    {
+      scene: "Comparison 04 · Fine-tuned Representation",
+      title: "Scenario 2: Fine-tuned Representation",
+      src: "./videos/representation-04.mp4",
+      caption: "Driving behavior when the transferred representation modules are fine-tuned during RL training."
     }
   ]
 };
