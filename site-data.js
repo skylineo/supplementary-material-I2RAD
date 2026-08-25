@@ -13,12 +13,12 @@ window.I2R_AD_SITE = {
       src: "./videos/success-01.mp4",
       caption: "The policy detects the crossing pedestrian and slows down promptly to avoid a collision."
     },
-    {
-      scene: "Success 02 · Emergency Brake",
-      title: "Safe Pedestrian Interaction",
-      src: "./videos/success-02.mp4",
-      caption: "The policy proactively slows down at the intersection and safely yields to the crossing pedestrian."
-    },
+    // {
+    //   scene: "Success 02 · Emergency Brake",
+    //   title: "Safe Pedestrian Interaction",
+    //   src: "./videos/success-02.mp4",
+    //   caption: "The policy proactively slows down at the intersection and safely yields to the crossing pedestrian."
+    // },
     {
       scene: "Success 03 · Merging",
       title: "Highway Exit Maneuver",
