@@ -61,4 +61,5 @@
 
   renderCases("success-case-grid", config.successCases, "success");
   renderCases("failure-case-grid", config.failureCases, "failure");
+  renderCases("representation-case-grid", config.representationCases, "representation");
 })();
