@@ -98,28 +98,28 @@ window.I2R_AD_SITE = {
 
   representationCases: [
     {
-      scene: "Comparison 01 · Frozen Representation",
-      title: "Scenario 1: Frozen Representation",
-      src: "./videos/representation-01.mp4",
-      caption: "Driving behavior when the transferred representation modules are frozen during RL training."
+      scene: "Comparison 01 · IL Policy",
+      title: "Scenario 1: Highway Exit Lane Change",
+      src: "./videos/compare_1_IL.mp4",
+      caption: "The IL policy performs an improper lane change and collides with the guardrail after entering the exit lane."
     },
     {
-      scene: "Comparison 02 · Fine-tuned Representation",
-      title: "Scenario 1: Fine-tuned Representation",
-      src: "./videos/representation-02.mp4",
-      caption: "Driving behavior when the transferred representation modules are fine-tuned during RL training."
+      scene: "Comparison 02 · RL Policy",
+      title: "Scenario 1: Highway Exit Lane Change",
+      src: "./videos/compare_1_RL.mp4",
+      caption: "The RL policy performs a smooth lane change and successfully enters the highway exit."
     },
     {
-      scene: "Comparison 03 · Frozen Representation",
-      title: "Scenario 2: Frozen Representation",
-      src: "./videos/representation-03.mp4",
-      caption: "Driving behavior when the transferred representation modules are frozen during RL training."
+      scene: "Comparison 03 · IL Policy",
+      title: "Scenario 2: Rainy-Night Obstacle Bypass",
+      src: "./videos/compare_2_IL.mp4",
+      caption: "The IL policy responds inadequately to the disabled vehicle and fails to complete a safe bypass."
     },
     {
-      scene: "Comparison 04 · Fine-tuned Representation",
-      title: "Scenario 2: Fine-tuned Representation",
-      src: "./videos/representation-04.mp4",
-      caption: "Driving behavior when the transferred representation modules are fine-tuned during RL training."
+      scene: "Comparison 04 · RL Policy",
+      title: "Scenario 2: Rainy-Night Obstacle Bypass",
+      src: "./videos/compare_2_RL.mp4",
+      caption: "The RL policy responds appropriately and safely bypasses the disabled vehicle."
     }
   ]
 };
