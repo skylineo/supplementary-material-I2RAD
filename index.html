@@ -3,24 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Anonymous supplementary video results for I2R-AD." />
-    <meta name="robots" content="noindex, nofollow, noarchive" />
 
-    <meta property="og:title" content="I2R-AD | Anonymous Supplementary Material" />
+    <meta
+      name="description"
+      content="Anonymous supplementary video results for I2R-AD."
+    />
+
+    <meta
+      name="robots"
+      content="noindex, nofollow, noarchive"
+    />
+
+    <meta
+      property="og:title"
+      content="I2R-AD | Anonymous Supplementary Material"
+    />
+
     <meta
       property="og:description"
-      content="Representative successful and failure cases, together with qualitative comparisons between IL and RL policies."
+      content="Representative successful and failure cases from closed-loop driving evaluation, together with qualitative analysis of representation fine-tuning."
     />
-    <meta property="og:image" content="./og.png" />
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="og:image"
+      content="./og.png"
+    />
+
+    <meta
+      name="twitter:card"
+      content="summary_large_image"
+    />
 
     <title>I2R-AD | Anonymous Supplementary Material</title>
-    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
   </head>
 
   <body>
+
     <header class="site-header">
+
       <p class="anonymous-note">
         Anonymous supplementary material · Double-blind review
       </p>
@@ -33,9 +58,10 @@
       </p>
 
       <p class="summary">
-        Representative closed-loop driving rollouts illustrate the capabilities
-        and current limitations of the proposed method, together with qualitative
-        comparisons between IL and RL policies.
+        Representative closed-loop driving rollouts are grouped by outcome to
+        illustrate both the capabilities and current limitations of the proposed
+        method, together with qualitative comparisons of representation
+        fine-tuning.
       </p>
 
       <nav aria-label="Page sections">
@@ -43,46 +69,70 @@
         <a href="#failure-cases">Failure Cases</a>
         <a href="#representation-finetuning">Representation Fine-tuning</a>
       </nav>
+
     </header>
 
 
-    
     <main class="results">
 
+      <!-- Successful Cases -->
       <section
         id="successful-cases"
         class="result-section success-section"
         aria-labelledby="success-heading"
       >
+
         <div class="section-heading">
+
           <div>
-            <p class="section-kicker">Closed-loop evaluation</p>
-            <h2 id="success-heading">Successful Cases</h2>
+            <p class="section-kicker">
+              Closed-loop evaluation
+            </p>
+
+            <h2 id="success-heading">
+              Successful Cases
+            </h2>
           </div>
 
           <p>
-            <span id="success-count">10</span> representative rollouts
+            <span id="success-count">10</span>
+            representative rollouts
           </p>
+
         </div>
 
-        <div id="success-case-grid" class="case-grid"></div>
+        <div
+          id="success-case-grid"
+          class="case-grid"
+        ></div>
+
       </section>
 
 
+      <!-- Failure Cases -->
       <section
         id="failure-cases"
         class="result-section failure-section"
         aria-labelledby="failure-heading"
       >
+
         <div class="section-heading">
+
           <div>
-            <p class="section-kicker">Limitations</p>
-            <h2 id="failure-heading">Failure Cases</h2>
+            <p class="section-kicker">
+              Limitations
+            </p>
+
+            <h2 id="failure-heading">
+              Failure Cases
+            </h2>
           </div>
 
           <p>
-            <span id="failure-count">4</span> representative rollouts
+            <span id="failure-count">4</span>
+            representative rollouts
           </p>
+
         </div>
 
         <p class="section-intro">
@@ -91,45 +141,64 @@
           safety-aware control.
         </p>
 
-        <div id="failure-case-grid" class="case-grid"></div>
+        <div
+          id="failure-case-grid"
+          class="case-grid"
+        ></div>
+
       </section>
 
 
+      <!-- Representation Fine-tuning -->
       <section
-        id="policy-comparison"
+        id="representation-finetuning"
         class="result-section representation-section"
         aria-labelledby="representation-heading"
       >
+
         <div class="section-heading">
+
           <div>
-            <p class="section-kicker">Policy comparison</p>
+            <p class="section-kicker">
+              Representation analysis
+            </p>
+
             <h2 id="representation-heading">
-              Qualitative Comparison of IL and RL Policies
+              Visualization of the Effect of Representation Fine-tuning
             </h2>
           </div>
 
           <p>
-            <span id="representation-count">4</span> comparative rollouts
+            <span id="representation-count">4</span>
+            comparative rollouts
           </p>
+
         </div>
 
         <p class="section-intro">
-          Each pair compares the IL expert and the RL policy under the same
-          driving scenario, illustrating the behavioral changes after
-          closed-loop reinforcement learning.
+          Each pair compares driving behaviors with the transferred
+          representation modules frozen or unfrozen during RL training,
+          illustrating the benefit of representation fine-tuning.
         </p>
 
-        <div id="representation-case-grid" class="case-grid"></div>
+        <div
+          id="representation-case-grid"
+          class="case-grid"
+        ></div>
+
       </section>
 
     </main>
+
 
     <footer>
       Anonymous supplementary material for double-blind review. Author names,
       affiliations, and identifying links are intentionally omitted.
     </footer>
 
+
     <script src="./site-data.js?v=3"></script>
     <script src="./app.js?v=3"></script>
+
   </body>
 </html>
