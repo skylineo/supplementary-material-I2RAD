@@ -5,67 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Anonymous supplementary video results for I2R-AD." />
     <meta name="robots" content="noindex, nofollow, noarchive" />
+
     <meta property="og:title" content="I2R-AD | Anonymous Supplementary Material" />
-    <meta property="og:description" content="Representative successful and failure cases from closed-loop driving evaluation." />
+    <meta
+      property="og:description"
+      content="Representative successful and failure cases, together with qualitative comparisons between IL and RL policies."
+    />
     <meta property="og:image" content="./og.png" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <title>I2R-AD | Anonymous Supplementary Material</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <header class="site-header">
-      <p class="anonymous-note">Anonymous supplementary material · Double-blind review</p>
+      <p class="anonymous-note">
+        Anonymous supplementary material · Double-blind review
+      </p>
+
       <h1>I2R-AD</h1>
-      <p class="paper-title">Imitation Learning-Assisted Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving</p>
-      <p class="summary">Representative closed-loop driving rollouts are grouped by outcome to illustrate both the capabilities and current limitations of the proposed method.</p>
+
+      <p class="paper-title">
+        Imitation Learning-Assisted Closed-Loop Reinforcement Learning for
+        End-to-End Autonomous Driving
+      </p>
+
+      <p class="summary">
+        Representative closed-loop driving rollouts illustrate the capabilities
+        and current limitations of the proposed method, together with qualitative
+        comparisons between IL and RL policies.
+      </p>
+
       <nav aria-label="Page sections">
         <a href="#successful-cases">Successful Cases</a>
         <a href="#failure-cases">Failure Cases</a>
-        <a href="#representation-finetuning">Representation Fine-tuning</a>
+        <a href="#policy-comparison">IL vs. RL Comparison</a>
       </nav>
     </header>
 
     <main class="results">
-      <section id="successful-cases" class="result-section success-section" aria-labelledby="success-heading">
+
+      <section
+        id="successful-cases"
+        class="result-section success-section"
+        aria-labelledby="success-heading"
+      >
         <div class="section-heading">
           <div>
             <p class="section-kicker">Closed-loop evaluation</p>
             <h2 id="success-heading">Successful Cases</h2>
           </div>
-          <p><span id="success-count">6</span> representative rollouts</p>
+
+          <p>
+            <span id="success-count">10</span> representative rollouts
+          </p>
         </div>
+
         <div id="success-case-grid" class="case-grid"></div>
       </section>
 
-      <section id="failure-cases" class="result-section failure-section" aria-labelledby="failure-heading">
+
+      <section
+        id="failure-cases"
+        class="result-section failure-section"
+        aria-labelledby="failure-heading"
+      >
         <div class="section-heading">
           <div>
             <p class="section-kicker">Limitations</p>
             <h2 id="failure-heading">Failure Cases</h2>
           </div>
-          <p><span id="failure-count">3</span> representative rollouts</p>
+
+          <p>
+            <span id="failure-count">4</span> representative rollouts
+          </p>
         </div>
-        <p class="section-intro">These examples highlight challenging situations that remain unresolved and motivate future improvements in interaction modeling and safety-aware control.</p>
+
+        <p class="section-intro">
+          These examples highlight challenging situations that remain unresolved
+          and motivate future improvements in interaction modeling and
+          safety-aware control.
+        </p>
+
         <div id="failure-case-grid" class="case-grid"></div>
       </section>
 
-      <section id="representation-finetuning" class="result-section representation-section" aria-labelledby="representation-heading">
+
+      <section
+        id="policy-comparison"
+        class="result-section representation-section"
+        aria-labelledby="representation-heading"
+      >
         <div class="section-heading">
           <div>
-            <p class="section-kicker">Representation analysis</p>
-            <h2 id="representation-heading">Visualization of the Effect of Representation Fine-tuning</h2>
+            <p class="section-kicker">Policy comparison</p>
+            <h2 id="representation-heading">
+              Qualitative Comparison of IL and RL Policies
+            </h2>
           </div>
-          <p><span id="representation-count">4</span> comparative rollouts</p>
+
+          <p>
+            <span id="representation-count">4</span> comparative rollouts
+          </p>
         </div>
+
+        <p class="section-intro">
+          Each pair compares the IL expert and the RL policy under the same
+          driving scenario, illustrating the behavioral changes after
+          closed-loop reinforcement learning.
+        </p>
+
         <div id="representation-case-grid" class="case-grid"></div>
       </section>
+
     </main>
 
     <footer>
-      Anonymous supplementary material for double-blind review. Author names, affiliations, and identifying links are intentionally omitted.
+      Anonymous supplementary material for double-blind review. Author names,
+      affiliations, and identifying links are intentionally omitted.
     </footer>
 
-    <script src="./site-data.js?v=2"></script>
-    <script src="./app.js?v=2"></script>
+    <script src="./site-data.js?v=3"></script>
+    <script src="./app.js?v=3"></script>
   </body>
 </html>
