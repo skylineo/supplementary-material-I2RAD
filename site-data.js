@@ -98,28 +98,28 @@ window.I2R_AD_SITE = {
 
   representationCases: [
     {
-      scene: "Comparison 01 · IL Policy",
+      scene: "Comparison 01 · Frozen Representation",
       title: "Scenario 1: Highway Exit Lane Change",
       src: "./videos/compare_1_IL.mp4",
-      caption: "The IL policy performs an improper lane change and collides with the guardrail after entering the exit lane."
+      caption: "The policy produces an improper lane-change trajectory and collides with the guardrail after entering the exit lane."
     },
     {
-      scene: "Comparison 02 · RL Policy",
+      scene: "Comparison 02 · Unfrozen Representation",
       title: "Scenario 1: Highway Exit Lane Change",
       src: "./videos/compare_1_RL.mp4",
-      caption: "The RL policy performs a smooth lane change and successfully enters the highway exit."
+      caption: "The policy performs a smooth lane change and successfully enters the highway exit."
     },
     {
-      scene: "Comparison 03 · IL Policy",
+      scene: "Comparison 03 · Frozen Representation",
       title: "Scenario 2: Rainy-Night Obstacle Bypass",
       src: "./videos/compare_2_IL.mp4",
-      caption: "The IL policy responds inadequately to the disabled vehicle and fails to complete a safe bypass."
+      caption: "The policy fails to execute an appropriate bypass maneuver around the disabled vehicle."
     },
     {
-      scene: "Comparison 04 · RL Policy",
+      scene: "Comparison 04 · Unfrozen Representation",
       title: "Scenario 2: Rainy-Night Obstacle Bypass",
       src: "./videos/compare_2_RL.mp4",
-      caption: "The RL policy responds appropriately and safely bypasses the disabled vehicle."
+      caption: "The policy performs an appropriate lane change and safely bypasses the disabled vehicle."
     }
   ]
 };
