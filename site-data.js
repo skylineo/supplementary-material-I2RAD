@@ -99,26 +99,26 @@ window.I2R_AD_SITE = {
   representationCases: [
     {
       scene: "Comparison 01 · Frozen Representation",
-      title: "Scenario 1: Highway Exit Lane Change",
-      src: "./videos/compare_1_IL.mp4",
-      caption: "The policy produces an improper lane-change trajectory and collides with the guardrail after entering the exit lane."
+      title: "Nighttime Door-Opening Avoidance",
+      src: "./videos/compare_1_Frozen.mp4",
+      caption: "The policy fails to adequately slow down and adjust laterally when the roadside vehicle opens its door."
     },
     {
       scene: "Comparison 02 · Unfrozen Representation",
-      title: "Scenario 1: Highway Exit Lane Change",
-      src: "./videos/compare_1_RL.mp4",
-      caption: "The policy performs a smooth lane change and successfully enters the highway exit."
+      title: "Nighttime Door-Opening Avoidance",
+      src: "./videos/compare_1_Unfrozen.mp4",
+      caption: "The policy slows down promptly and makes a slight lateral adjustment to safely pass the opening door."
     },
     {
       scene: "Comparison 03 · Frozen Representation",
-      title: "Scenario 2: Rainy-Night Obstacle Bypass",
-      src: "./videos/compare_2_IL.mp4",
+      title: "Rainy-Night Obstacle Bypass",
+      src: "./videos/compare_2_Frozen.mp4",
       caption: "The policy fails to execute an appropriate bypass maneuver around the disabled vehicle."
     },
     {
       scene: "Comparison 04 · Unfrozen Representation",
-      title: "Scenario 2: Rainy-Night Obstacle Bypass",
-      src: "./videos/compare_2_RL.mp4",
+      title: "Rainy-Night Obstacle Bypass",
+      src: "./videos/compare_2_Unfrozen.mp4",
       caption: "The policy performs an appropriate lane change and safely bypasses the disabled vehicle."
     }
   ]
