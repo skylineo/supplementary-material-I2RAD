@@ -98,27 +98,27 @@ window.I2R_AD_SITE = {
 
   representationCases: [
     {
-      scene: "Comparison 01 · Frozen Representation",
+      scene: "Comparison 01 · Untuned Representation",
       title: "Nighttime Door-Opening Avoidance",
-      src: "./videos/compare_1_Frozen.mp4",
+      src: "./videos/compare_1_Untuned.mp4",
       caption: "The policy fails to adequately slow down and adjust laterally when the roadside vehicle opens its door."
     },
     {
-      scene: "Comparison 02 · Unfrozen Representation",
+      scene: "Comparison 02 · Tuned Representation",
       title: "Nighttime Door-Opening Avoidance",
-      src: "./videos/compare_1_Unfrozen.mp4",
+      src: "./videos/compare_1_Tuned.mp4",
       caption: "The policy slows down promptly and makes a slight lateral adjustment to safely pass the opening door."
     },
     {
-      scene: "Comparison 03 · Frozen Representation",
+      scene: "Comparison 03 · Untuned Representation",
       title: "Rainy-Night Obstacle Bypass",
-      src: "./videos/compare_2_Frozen.mp4",
+      src: "./videos/compare_2_Untuned.mp4",
       caption: "The policy fails to execute an appropriate bypass maneuver around the disabled vehicle."
     },
     {
-      scene: "Comparison 04 · Unfrozen Representation",
+      scene: "Comparison 04 · Tuned Representation",
       title: "Rainy-Night Obstacle Bypass",
-      src: "./videos/compare_2_Unfrozen.mp4",
+      src: "./videos/compare_2_Tuned.mp4",
       caption: "The policy performs an appropriate lane change and safely bypasses the disabled vehicle."
     }
   ]
