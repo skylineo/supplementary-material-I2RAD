@@ -84,15 +84,9 @@ window.I2R_AD_SITE = {
     },
     {
       scene: "Failure 03 · Traffic Sign",
-      title: "Insufficient Turning Clearance",
-      src: "./videos/failure-03.mp4",
-      caption: "The policy fails to maintain sufficient clearance during the right turn, resulting in a collision with a roadside lamp post."
-    },
-    {
-      scene: "Failure 04 · Traffic Sign",
-      title: "Poor Turning Clearance",
+      title: "Unstable Stop-Sign Handling",
       src: "./videos/failure-04.mp4",
-      caption: "The policy fails to maintain sufficient clearance during the left turn, resulting in a collision with a roadside traffic sign."
+      caption: "The policy fails to stop and restart smoothly at the stop sign, eventually colliding with the roadside sign."
     }
   ],
 
